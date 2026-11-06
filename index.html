@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi Sitio Web Modular</title>
+  
+  <!-- CSS Externo -->
+  <link rel="stylesheet" href="styles.css">
+  <!-- Iconos de FontAwesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+  <!-- ================= HEADER / NAVEGACIÓN ================= -->
+  <header class="header">
+    <div class="container navbar">
+      <a href="#" class="logo">Fran<span>Creativestudio</span></a>
+      
+      <button class="menu-toggle" id="menuToggle" aria-label="Abrir menú">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+
+      <nav class="nav" id="navMenu">
+        <ul class="nav-list">
+          <li><a href="#inicio" class="nav-link active">Inicio</a></li>
+          <li><a href="#galeria" class="nav-link">Galería</a></li>
+          <li><a href="#servicios" class="nav-link">Servicios</a></li>
+          <li><a href="#contacto" class="nav-link">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ================= HERO BANNER ================= -->
+  <section id="inicio" class="hero">
+    <div class="container hero-content">
+      <h1>Diseño Web Limpio y Estructurado</h1>
+      <p>Aprende a construir páginas web modulares y mantenibles.</p>
+      <a href="#galeria" class="btn btn-primary">Ver Galería</a>
+    </div>
+  </section>
+
+  <!-- ================= GALERÍA DE IMÁGENES ================= -->
+  <section id="galeria" class="section">
+    <div class="container">
+      <h2 class="section-title">Galería de Imágenes</h2>
+      <p class="section-subtitle">Una colección visual en cuadrícula responsive</p>
+
+      <div class="gallery-grid">
+        <article class="card">
+          <div class="card-image">
+            <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=600&q=80" alt="Paisaje natural">
+          </div>
+          <div class="card-body">
+            <h3>Naturaleza Libre</h3>
+            <p>Montañas y lagos impresionantes.</p>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="card-image">
+            <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=600&q=80" alt="Tecnología y código">
+          </div>
+          <div class="card-body">
+            <h3>Tecnología</h3>
+            <p>Desarrollo web moderno y eficiente.</p>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="card-image">
+            <img src="https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=600&q=80" alt="Arquitectura moderna">
+          </div>
+          <div class="card-body">
+            <h3>Arquitectura</h3>
+            <p>Espacios y diseños vanguardistas.</p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= PIE DE PÁGINA ================= -->
+  <footer id="contacto" class="footer">
+    <div class="container footer-grid">
+      <div class="footer-col">
+        <h3>Mi<span>Marca</span></h3>
+        <p>Creando experiencias digitales accesibles, rápidas y escalables.</p>
+      </div>
+
+      <div class="footer-col">
+        <h4>Enlaces Rápidos</h4>
+        <ul>
+          <li><a href="#inicio">Inicio</a></li>
+          <li><a href="#galeria">Galería</a></li>
+          <li><a href="#servicios">Servicios</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Síguenos</h4>
+        <div class="social-links">
+          <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="#" aria-label="Twitter"><i class="fa-brands fa-twitter"></i></a>
+          <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>&copy; 2026 MiMarca. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+
+  <!-- JavaScript Externo -->
+  <script src="script.js"></script>
+</body>
+</html>
